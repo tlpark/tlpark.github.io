@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 900px;
+    background-color: #D8F3C9;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    margin-top: 24px;
+}
+
+
+footer {
+    margin-top: 64px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+nav {
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+nav a {
+	font-family: 'Amatic SC', cursive;
+    font-size: 32px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+p {
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+    text-align: center;
+	font-family: 'Amatic SC', cursive;
+    color: #000000;
+}
+
+h2 {
+    font-size: 32px;
+	font-family: 'Amatic SC', cursive;
+    color: #003366;
+    text-align: center;
+
+}
+
+ul,
+ol {
+    font-size: 16px;
+    margin-left: 32px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #000000;
+}
+
+img {
+    border-radius: 0.25em;
+    width: 100%;
+}
+
+iframe {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+a {
+    color: #666666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+}
+
+#homepage {
+    column-count: 3;
+    column-gap: 24px;
+}
+
+#photo-grid {
+    margin-top: 16px;
+    column-count: 3;
+    column-gap: 24px;
+}
+
+#photo-grid img {
+    margin-top: 24px;
+}
+
+.profile {
+    float: left;
+    margin-right: 18px;
+    width: 180px;
+    border-radius: 100%;
+    border: 4px solid #f7f7f7;
+}
+
+#foo {
+    /* margin */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* padding */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 360px;
+    padding-right: 0px;
+    /* border */
+    border: 0px solid;
+}
+
+#poo {
+    /* margin */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /* padding */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 420px;
+    padding-right: 0px;
+    /* border */
+    border: 0px solid;
+}
